@@ -1,0 +1,77 @@
+.hero-section{
+   
+    display: flex;
+    margin-top: 100px;
+}
+#hero .col-left{
+width: 50%;
+}
+#hero .col-right{
+    width: 50%;
+}
+#hero .container1
+{
+    margin-left: 150px;
+}
+.hello{
+    font-size: 29px;
+    font-family: 'Patua One','Passion one','Bree Serif','Times New Roman';
+    font-weight: 100;
+}
+.name{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 39px;
+    font-family: 'Patua One','Passion one','Bree Serif','Times New Roman';
+}
+.student{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 29px;
+    font-family: 'Patua One','Passion one','Bree Serif','Times New Roman';
+}
+p{
+    margin-top: 35px;
+    margin-bottom: 8px;
+    font-family: 'Patua One','Passion one','Bree Serif','Times New Roman';
+    font-size: 19px;
+}
+button{
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  0px 0px 18px 0 rgb(80, 243, 255);
+    transition: 0.3s ease box-shadow;
+    font-size: 15px;
+    background-color: rgb(80, 243, 255);
+    
+}
+button a{
+    background-color: rgb(80, 243, 255);
+    color:rgb(1, 1, 28);
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+}
+#hero .container2
+{
+    background-size: cover;
+    background-image: url(../img/mansiclg.jpg);
+  float: right;
+      width: 400px;
+      height: 400px; 
+
+    border-radius: 300px;
+    margin-right: 100px;
+    box-shadow:  0px 0px 130px 0px rgb(6, 39, 205);
+    transition: 0.3s ease box-shadow;
+
+
+}

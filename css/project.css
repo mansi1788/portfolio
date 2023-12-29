@@ -1,0 +1,45 @@
+#project{
+    margin-top: 140px;
+    padding: 50px 0;
+}
+
+#project .project-word{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Rubik Doodle Shadow';
+    font-family:   'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+#project .project{
+    display:flex;
+    justify-items: center;
+    justify-content:center;
+    margin-top: 70px;
+}
+
+
+#project .project .box1{
+    width: 25%;
+    height: 20rem;
+    border: 2px solid white;
+    margin: 15px;
+
+   
+}
+
+#project .project .box2{
+    width: 25%;
+    height: 20rem;
+    border: 2px solid rgb(255, 248, 248);
+    margin: 15px;
+   
+}
+
+#project .project .box3{
+    margin: 15px;
+    width: 25%;
+    height: 20rem;
+    border: 2px solid white;
+
+}
