@@ -1,0 +1,104 @@
+#skill .skill{
+    font-size: 80px;
+}
+.skill-title{
+  display: flex;
+  margin-top: 140px;
+  margin-left: 200px;
+}
+#arrowAnim {
+  width: 70vw;
+  height: 40vh;
+  display: flex;
+  margin-left: 210px;
+  margin-top: 30px;
+}
+
+.arrow {
+  width: 2vw;
+  height: 2vw;
+  border: 1.5vw solid;
+  border-color: rgb(0, 197, 247) transparent transparent rgb(0, 197, 247);
+  transform: rotate(-45deg);
+}
+.arrowSliding {
+  position: absolute;
+  -webkit-animation: slide 4s linear infinite; 
+          animation: slide 4s linear infinite;
+}
+
+.delay1 {
+  -webkit-animation-delay: 1s; 
+    animation-delay: 1s;
+}
+.delay2 {
+  -webkit-animation-delay: 2s; 
+    animation-delay: 2s;
+}
+.delay3 {
+  -webkit-animation-delay: 3s; 
+    animation-delay: 3s;
+}
+
+@-webkit-keyframes slide {
+    0% { opacity:0; transform: translateX(15vw); }	
+   20% { opacity:1; transform: translateX(9vw); }	
+   80% { opacity:1; transform: translateX(-9vw); }	
+  100% { opacity:0; transform: translateX(-15vw); }	
+}
+@keyframes slide {
+    0% { opacity:0; transform: translateX(15vw); }	
+   20% { opacity:1; transform: translateX(9vw); }	
+   80% { opacity:1; transform: translateX(-9vw); }	
+  100% { opacity:0; transform: translateX(-15vw); }	
+}
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i, 600, 600,700");
+
+
+
+span {
+  font-weight: 400;
+  font-size: 20px;
+  
+}
+
+.container
+{
+  display: flex;
+}
+.skill-section1{
+  width: 40%;
+  margin-left: 10px;
+}
+.skill-section2{
+  width: 30%;
+}
+.skill-bar {
+
+  margin: 1rem 0 0 0;
+  width: 409px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skill-level {
+  margin: 0.2rem 0;
+  flex-direction: row;
+  display: flex;
+}
+.dot {
+  opacity: 1;
+  margin: 0px 6px;
+  width: 11px;
+  height: 11px;
+  border-radius: 100%;
+   /* border: 0.1rem rgb(129, 144, 255) solid; */
+   background-color:rgb(12, 31, 42);
+}
+
+.fill {
+  background: rgb(0, 238, 255);
+}

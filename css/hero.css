@@ -36,27 +36,30 @@ p{
     font-family: 'Patua One','Passion one','Bree Serif','Times New Roman';
     font-size: 19px;
 }
-button{
-    width: 30%;
-    padding: 20px;
-    text-align: center;
-    border-radius: 40px;
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow:  0px 0px 18px 0 rgb(80, 243, 255);
-    transition: 0.3s ease box-shadow;
-    font-size: 15px;
-    background-color: rgb(80, 243, 255);
+.standard-btn {
+    text-decoration:none;
+    border: 2px solid #00ACEC;
+    padding:10px 20px 10px 20px;
+    border-radius:2px;
+    color:#00ACEC;
+    margin:5px;
+  }
+  .button{
+    margin-top: 80px;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  .standard-btn:hover {
     
-}
-button a{
-    background-color: rgb(80, 243, 255);
-    color:rgb(1, 1, 28);
-    font-weight: 700;
-}
+    
+    color:rgb(1,1,28);
+    background-color:#00acec;
+  }
+  .btn-lg {
+    border-radius:12px;
+    padding: 15px 40px 15px 40px;
+  }
+  
 a{
     text-decoration: none;
 }
@@ -71,7 +74,46 @@ a{
     border-radius: 300px;
     margin-right: 100px;
     box-shadow:  0px 0px 130px 0px rgb(6, 39, 205);
-    transition: 0.3s ease box-shadow;
-
-
+    /* transition: 0.3s ease box-shadow; */
 }
+.container2:before {
+    position: absolute; 
+    content: "";
+    top: 138px;
+    bottom: 119px;
+    left: 840px;
+    right: 110px;
+    border-radius: 50%;
+    /* box-shadow: 0 0 rgba(255, 250, 250, 0.2), 0 0 0 16px rgba(212, 207, 207, 0.2),
+      0 0 0 32px rgba(255, 250, 250, 0.2), 0 0 0 48px rgba(255, 252, 252, 0.2); */
+      box-shadow: 0 0 rgba(0, 0, 0, 0.2), 0 0 0 16px rgba(0, 0, 0, 0.2),
+    0 0 0 32px rgba(0, 0, 0, 0.2), 0 0 0 48px rgba(0, 0, 0, 0.2);
+
+    z-index: 1;
+    animation: ripples 1s linear infinite;
+    /* slow down */
+    animation-play-state: paused; 
+     opacity: 0; 
+     visibility: hidden; 
+     transition: 0.5s; 
+     transform: scale(0.5); 
+}
+
+.container2:before {
+    animation-play-state: running;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+  
+  @keyframes ripples {
+    to {
+      box-shadow: 0 0 0 16px rgba(0, 0, 0, 0.2), 0 0 0 32px rgba(0, 0, 0, 0.2),
+        0 0 0 48px rgba(0, 0, 0, 0.2), 0 0 0 64px rgba(0, 0, 0, 0);
+    }
+  }
+  
+  /* box-shadow: 0 0 0 16px rgba(0, 0, 0, 0.2), 0 0 0 32px rgba(0, 0, 0, 0.2),
+  0 0 0 48px rgba(0, 0, 0, 0.2), 0 0 0 64px rgba(0, 0, 0, 0); */
+
+  

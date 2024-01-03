@@ -39,7 +39,10 @@
     /* top: 0px; */
     margin-left:-25px;
       float: right;
+  
   }
+
+
 
 .about{
     width: 50%;
@@ -63,12 +66,26 @@ width: 90%;
     font-size: 60px;
     font-family: 'Patua One','Passion one','Bree Serif','Times New Roman';
 }
- /* #about .about .col-right p::before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 2px;
-    background-color: rgb(250, 250, 250); 
-    left: 4px; 
-    bottom: -40px;
-}  */
+.standard-btn {
+    text-decoration:none;
+    border: 2px solid #00ACEC;
+    padding:10px 20px 10px 20px;
+    border-radius:2px;
+    color:#00ACEC;
+    margin:5px;
+  }
+  .button2{
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: bolder;
+
+  }
+  .standard-btn:hover {
+    color:rgb(1,1,28);
+    background-color:#00acec;
+  }
+  .btn-lg {
+    border-radius:32px;
+    padding: 15px 40px 15px 40px;
+  }
+  
