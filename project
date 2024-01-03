@@ -1,0 +1,114 @@
+ <!-- project section starts -->
+    <section id="project">
+      <div class="project-section">
+
+
+      <div class="project">MY PROJECTS</div>
+
+      <div class="box-left1">
+      
+        <div class="project-name-left">
+          
+          <!-- bakery<br>AUG 2022 -->
+        </div>
+     </div>
+
+      <div class="container">
+        <div class="vertical-boxes">
+
+          <div class="small-box1">
+
+            <div class="design-dot">
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+             </div> 
+             <div class="design-dot">
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+             </div> 
+             <div class="design-dot">
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+             </div>
+             
+             
+          </div>
+
+
+
+          <div class="small-box2"> 
+            <div class="arrow-mansi">
+                      <div class="long-arrow-right"></div>
+
+                <!-- <div class="box-right1">box-right1
+                     <div class="project-name-right">bakery<br>AUG 2022</div>
+                 </div> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="large-box">
+          <div class="box-right1">box-right1
+            <div class="project-name-right">bakery<br>AUG 2022</div>
+        </div>
+
+
+        </div>
+      </div>
+      
+      <!-- <div class="box-left">box-left
+         <div class="project-name-left">bakery<br>AUG 2022</div>
+      </div>
+
+      
+      <div class="arrow-mansi">
+        <div class="design-dot">
+          <div class="small-dot"></div>
+          <div class="small-dot"></div>
+          <div class="small-dot"></div>
+          <div class="small-dot"></div>
+          <div class="small-dot"></div>
+          <div class="small-dot"></div>
+         </div> 
+
+
+          <div class="long-arrow-right"></div>
+
+        <div class="box-right1">box-right1
+            <div class="project-name-right">bakery<br>AUG 2022</div>
+        </div>
+      </div> -->
+
+      <div class="box-left2">box-left
+        <div class="project-name-left">
+          <!-- bakery<br>AUG 2022 -->
+        </div>
+      </div> 
+
+     <div class="box-right2">box-right2
+      <div class="project-name-right">bakery<br>AUG 2022</div>
+    </div>
+
+    </div>
+    </section>

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
@@ -13,7 +14,10 @@
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/about.css">
-    <!-- <link rel="stylesheet" href="./css/project.css"> -->
+    <link rel="stylesheet" href="./css/myskills.css">
+    <link rel="stylesheet" href="./css/project.css">
+    <link rel="stylesheet" href="./css/contact.css">
+   <script src="portfolio.js"></script>
     <title>portfolio</title>
 
     <!-- https://www.behance.net/gallery/157781767/Design-a-cool-portfolio-for-a-web-developer?tracking_source=search_projects&l=6 -->
@@ -26,10 +30,11 @@
                 <ul>
                     <li><a href="#hero" class="#">HOME</a></li>
                     <li><a href="#about" class="#">ABOUT</a></li>
+                    <li><a href="#skill" class="#">SKILLS</a></li>
                     <li><a href="#project" class="#">PROJECT</a></li>
                     <li><a href="#contact" class="#">CONTACT</a></li>
-                    <li><i class='fab fa-linkedin' style='font-size:30px'></i></li>
-                    <li><i class="fab fa-github" style='font-size:30px'></i></li>  
+                    <!-- <li><i class='fab fa-linkedin' style='font-size:30px'></i></li>
+                    <li><i class="fab fa-github" style='font-size:30px'></i></li>   -->
                 </ul>
             </div>
         </nav>
@@ -49,7 +54,12 @@
                        <div class="student">And I'm a <span style="color:rgb(80, 243, 255)">Student</span>  </div>
                        <p>I'm a engineer with the capacity to collaborate in a
                          team and problem-solving abilites</p>
-                        <button type="button"><a href="#about" type="button" class="cta">More About Me</a></button>
+                         <div class="button">
+ 
+                          <a href="#about" class="standard-btn btn-lg">More about me</a>
+                          
+                          </div>
+                        
                     </div>
                    
                 </div>
@@ -83,36 +93,32 @@
         <div class="about">
             <div class="col-left">
                 <div class="overview" style="font-family:Georgia, 'Times New Roman', Times, serif;font-style:unset;">ABOUT 
-                    <div class="me" style="color: rgb(80, 243, 255);">ME<span style="color:white ;">...</span></div></div>
+                    <div class="me" style="color: rgb(80, 243, 255);">ME<span style="color:white;font-size: 55px;">...</span></div></div>
             </div>
 
             <div class="col-right">
 
-                 <p>I'm Mansi Maithani, a btech student at Shivalik college of engineering.
-                     I love diving into the world of computer science, 
-                    and my studies focus on making things work in real life, like C++ ,C 
-                    ,Java, HTML5 , CSS3, Javascript. Besides classes, I enjoy working on projects
-                     and playing certain musical instrument, where I get to be creative and learn by doing.
-    
-                     In addition to my academic pursuits, I have been an active member of the Shivalik College
-                    Paradox Club, where I served as the Core coordinatior in the club.
-                     This hands-on experience allowed me to apply theoretical knowledge 
-                     to real-world challenges and cultivate strong teamwork and 
+                 <p>Welcome to my portfolio ,I'm Mansi Maithani from Dehradun, currently pursuing B.Tech in Computer Science at Shivalik College of Engineering. I completed my schooling at Marshall School.
+
+                  Beyond my studies, I have a passion for playing musical instruments and badminton. In the tech world, I'm familiar with programming languages like C++, C, HTML, CSS, and JavaScript. When it comes to non-technical skills, I excel in teamwork and problem-solving.
+                  
+                  Apart from my classes, I'm an active member of the Shivalik College
+                   Paradox Club. I even had the opportunity to serve as the Core
+                    Coordinator in the club. This hands-on experience helped me apply 
+                    what I've learned in real-world situations, honing my teamwork and
                      leadership skills.
+                  
+                  Looking forward to sharing and learning together!
 
-                    <!-- This portfolio is like a snapshot of my college journey—showing off projects,
-                     fun activities, and things I'm proud of. I'm excited about using what I've 
-                     learned to make a difference in computer science. Learning new stuff is my jam, 
-                     so I'm looking forward to more challenges and discoveries
-
-                     As I embark on the next phase of my journey, I am eager to leverage my skills in software
-                      development, data analysis, and machine learning. My portfolio is a reflection
-                      of my academic and extracurricular endeavors, showcasing my commitment to excellence and 
-                      my enthusiasm for pushing the boundaries of technology.
-                    
-                    I invite you to explore my portfolio further to gain a comprehensive understanding of my 
-                    skills, projects, and aspirations. Let's connect and explore. -->
                     </p>
+
+
+                    <div class="button2">
+ 
+                      <a href="img/mansi maithani.pdf" class="standard-btn btn-lg">Resume</a>
+                      
+                      </div>
+
             </div>
 
         </div>
@@ -122,35 +128,373 @@
 
     <!-- about ends -->
 
-    <!-- project section starts -->
-    <section id="project">
+    <!-- skills section starts -->
+    <section id="skill">
+        <div class="skill-section">
+          <div class="skill-title">
 
-        <div class="project-word">PROJECT</div>
-        <div class="project">
-            
-            <div class="box1">
-               
-                
+           <div class="skill">MY SKILLS</div>
+           
+
+            <div id="arrowAnim">
+                <div class="arrowSliding">
+                  <div class="arrow"></div>
+                </div>
+                <div class="arrowSliding delay1">
+                  <div class="arrow"></div>
+                </div>
+                <div class="arrowSliding delay2">
+                  <div class="arrow"></div>
+                </div>
+                <div class="arrowSliding delay3">
+                  <div class="arrow"></div>
+                </div>
+            </div>
+          </div>
+
+       
+
+
+        
+        <div class="container">
+          <div class="skill-section1">
+
+            <div class="skill-bar">
+              <span>HTML</span>
+              <div class="skill-level">
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="dot"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <span>PYTHON</span>
+              <div class="skill-level">
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <span>JAVASCRIPT</span>
+              <div class="skill-level">
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <span>C++</span>
+              <div class="skill-level">
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skill-section2">
+            <div class="skill-bar">
+              <span>JAVA</span>
+              <div class="skill-level">
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <span>C</span>
+              <div class="skill-level">
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <span>CSS</span>
+              <div class="skill-level">
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="fill dot"></div>
+                <div class="dot"></div>
+              </div>
             </div>
 
-
-            <div class="box2">
-             
-                
-            </div>
+          </div>
 
 
-            <div class="box3">
-              
-                
-            </div>
-
+          </div>
         </div>
 
+    </section>
+<!-- skills section ends -->
+
+
+    <!-- project section starts -->
+    <section id="project">
+      <div class="project-section">
+
+
+      <div class="project">MY PROJECTS</div>
+
+      <div class="box-left1">
+      <img src="img/bakery.png"  style=" width: 490px; height: 250px;">
+
+      <div class="box-layer">
+        <h4>bakery website</h4>
+        <p>Whipping up a sweet online experience for a
+           bakery through web development wizardry</p>
+         
+          <a href="https://mansi1788.github.io/baker-s-house/">
+            <iconify-icon icon="bx:link-external"></iconify-icon>
+            
+            </a> 
+      </div>
+        <div class="project-name-left">
+        </div>
+     </div>
+
+      <div class="container">
+        <div class="vertical-boxes">
+
+          <div class="small-box1">
+
+            <div class="design-dot">
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+             </div> 
+             <div class="design-dot">
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+             </div> 
+             <div class="design-dot">
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+              <div class="small-dot"></div>
+             </div>
+             
+             
+          </div>
+
+
+
+          <div class="small-box2"> 
+            <div class="arrow-mansi">
+                      <div class="long-arrow-right"></div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="large-box">
+          <div class="box-right1">
+            <img src="img/clock 3.jpg"  style="  width: 390px;
+            height: 350px;">
+
+      <div class="box-layer">
+          <h4>World clock</h4>
+        <p>Real-time world clock displaying global time zones on a sleek and intuitive webpage</p>
+         
+          <a href="https://mansi1788.github.io/worldclock/">
+            <iconify-icon icon="bx:link-external"></iconify-icon>
+            
+            </a> 
+      </div>
+        <div class="project-name-left">
+        </div>
+            <div class="project-name-right"></div>
+        </div>
+
+        </div>
+      </div>
+
+      <div class="box-left2">
+
+        <img src="img/untitled.jpg"  style=" width: 490px; height: 250px;">
+
+      <div class="box-layer">
+        <h4>Music academy</h4>
+        <p>Unlock the melody of learning at our music 
+          academy's interactive and harmonious website</p>
+         
+          <a href=" https://mansi1788.github.io/heart-touchh/">
+            <iconify-icon icon="bx:link-external"></iconify-icon>
+            
+            </a> 
+      </div>
+        <div class="project-name-left">
+        </div>
+
+        <div class="project-name-left">
+          <!-- bakery<br>AUG 2022 -->
+        </div>
+      </div> 
+
+
+    </div>
     </section>
     <!-- project section ends -->
 
 
 
+    <!-- contact section starts -->
+    <section id="contact">
+  
+      <h1 class="section-header">Contact</h1>
+      
+      <div class="contact-wrapper">
+      
+      <!-- Left contact page --> 
+        
+        <form id="contact-form" class="form-horizontal" role="form">
+           
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+            </div>
+          </div>
+    
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+            </div>
+          </div>
+
+          <div class="message">    
+
+        <div class="form-group">
+          <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+        </div>
+      </div>
+          
+          <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+            <div class="alt-send-button">
+              <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+            </div>
+          
+          </button>
+          
+        </form>
+        
+      <!-- Left contact page --> 
+        
+          <div class="direct-contact-container">
+    
+            <ul class="contact-list">
+              <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Dehradun, Uttarkhand</span></i></li>
+              
+              <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">8755775470</a></span></i></li>
+              
+              <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">maithanimansi8@gmail.com</a></span></i></li>
+              
+            </ul>
+    
+            <hr>
+            <ul class="social-media-list">
+              <li><a href="https://wa.me/qr/QSV42STOR466J1" target="_blank" class="contact-icon">
+                <!-- <i class="fa-brands fa-github"></i> -->
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              </li>
+              <li><a href="https://www.linkedin.com/in/mansi-maithani-859a96227/" target="_blank" class="contact-icon">
+                <i class='fab fa-linkedin' aria-hidden="true"></i></a>
+              </li>
+              <!-- <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fab fa-instagram" aria-hidden="true"></i></a>
+              </li> -->
+              <li><a href="https://github.com/mansi1788" target="_blank" class="contact-icon">
+                <i class="fab fa-github" aria-hidden="true"></i></a>
+              </li>       
+            </ul>
+            <hr>
+    
+            <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+    
+          </div>
+        
+      </div>
+      
+    </section>  
+      
+      
+    <!-- contact section ends -->
+<script src="portfolio.js"></script>
 </body>
 </html>
+
+<!-- https://codepen.io/Hem-10/pen/GRQQoXW -->
